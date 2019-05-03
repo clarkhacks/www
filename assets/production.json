@@ -1,0 +1,19 @@
+﻿{
+  "production": {
+    "b0001": {
+      "type": "bar",
+      "weight": 21,
+      "date_poured": 20190502
+    },
+    "b0002": {
+      "type": "bar",
+      "weight": 22,
+      "date_poured": 20190502
+    },
+    "b0003": {
+      "type": "bar",
+      "weight": 22,
+      "date_poured": 20190502
+    }
+  }
+}
