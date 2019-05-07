@@ -1,12 +1,11 @@
-(function() {
-	"use strict";
+---
+layout: null
+---
 
-	$(".style-picker").on("click", "> div", function (e) {
-		var $el = $(e.currentTarget),
-			id = $el.data("itemId"),
-			$parent = $el.closest(".styles");
+{% include_relative _style-picker.js %}
 
-		$parent.children(".style").hide();
-		$parent.children(".style[data-item-id=" + id + "]").show();
-	});
-})();
+function searchData(){
+    $('.item-card').hide();
+    var txt = $('#search-criteria').val();
+    $('.item-card:contains("'+txt+'")').show();
+}

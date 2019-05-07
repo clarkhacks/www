@@ -1,0 +1,74 @@
+{
+    "P00001": {
+        "image": "https://i.imgur.com/foPWTyP.jpg",
+        "weight": "8g",
+        "style": "Penis",
+        "date_poured": "2019-05-01T00:00:00-0500"
+    },
+    "P00002": {
+        "image": "https://i.imgur.com/53GqlV2.jpg",
+        "weight": "7g",
+        "style": "Penis",
+        "date_poured": "2019-04-04T00:00:00-0500"
+    },
+    "P00003": {
+        "image": "https://i.imgur.com/Y7HDGbw.jpg",
+        "weight": "33g",
+        "style": "Penis",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "P00004": {
+        "image": "https://i.imgur.com/9NmUm41.jpg",
+        "weight": "18g",
+        "style": "Penis",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00004": {
+        "image": "https://i.imgur.com/54Pgmsp.jpg",
+        "weight": "20g",
+        "style": "Bar",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00005": {
+        "image": "https://i.imgur.com/0EnPaBU.jpg",
+        "weight": "20g",
+        "style": "Bar",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00006": {
+        "image": "https://i.imgur.com/KogO88P.jpg",
+        "weight": "20g",
+        "style": "",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00007": {
+        "image": "https://i.imgur.com/3dmTt4A.jpg",
+        "weight": "12g",
+        "style": "Bar-Skinny",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00008": {
+        "image": "https://i.imgur.com/UDtu7kn.jpg",
+        "weight": "13g",
+        "style": "bar-Skiny",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00009": {
+        "image": "https://i.imgur.com/GFonEpf.jpg",
+        "weight": "15g",
+        "style": "Bar-Rounded",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "B00010": {
+        "image": "https://i.imgur.com/6w8F9Rt.jpg",
+        "weight": "19g",
+        "style": "Bar",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    },
+    "CB00001": {
+        "image": "https://i.imgur.com/8PDSguq.jpg",
+        "weight": "21g",
+        "style": "bar",
+        "date_poured": "2019-05-04T00:00:00-0500"
+    }
+}

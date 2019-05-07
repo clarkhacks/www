@@ -1,0 +1,31 @@
+---
+title: R[Ag]e Metals
+hero: Database
+subtitle: Every Product Ever Made.
+permalink: db
+---
+
+<div class="content" id="products">
+    <section>
+        <div class="container">
+            <input type="text" id="search-criteria" onkeyup="searchData()" placeholder="Enter Serial Number">
+            <ul class="product-list">
+                {% for item in site.data.db %}
+                <li class="item-card">
+                    <div class="styles">
+                        <div class="style">
+                                <img src="{{ item[1].image }}">
+                        </div>
+                    </div>
+                    <div class="product-details">
+                            <h4>{{ item[0] }}</h4>
+                    </div>
+                </li>
+                {% endfor %}
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+</div>

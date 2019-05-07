@@ -1,0 +1,30 @@
+---
+title: Our Story
+hero: Our story
+---
+
+<p class="editor-link" style="text-align: center; position: relative;
+    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+			<div class="name">{{ person.name }}</div>
+		</li>
+	{% endfor %}
+</ul>
+
+<div class="thirds story-points">
+	<div>
+		<h3 class="editable">Clark</h3>
+		<p class="editable">I am a web developer, software engineer, and project manager currently living in Illinois. I'm a little weird but pretty friendly.</p>
+	</div>
+	<div>
+		<h3 class="editable">R[Ag]e Metals</h3>
+		<p class="editable">Rage Metals is a small silver pouring company. We deal with artwork, generic bullion, and investment pieces. Each piece comes with a COA and a serial number you can look up in our database.</p>
+	</div>
+	<div>
+		<h3 class="editable">Travis</h3>
+		<p class="editable">I'm a free market capitalist who doesn't like having a social profile online. My dog does though, check her on <a href="https://www.instagram.com/timberwolflucy/" target="_blank">Instagram</a></p>
+	</div>
+</div>

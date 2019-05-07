@@ -1,2 +1,6 @@
+---
+layout: null
+sitemap: false
+---
 User-agent: *
-Sitemap: https://www.RageMetals.com//sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml

@@ -1,0 +1,26 @@
+---
+title: R[Ag]e Metals
+hero: Gallery
+subtitle: Process and Pieces
+---
+
+<div class="content" id="products">
+    <section>
+        <div class="container">
+            <ul class="product-list">
+                {% for item in site.data.gallery %}
+                <li>
+                    <div class="styles">
+                        <div class="style">
+                                <img src="{{ item.image }}">
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+</div>
