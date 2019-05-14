@@ -1,0 +1,50 @@
+---
+title: Order Form
+description: Place your order and we'll get in touch. Usually within 24 hours.
+email: info@ragemetals.com
+hero: Order
+---
+
+<div class="contact-box">
+    <form method="post" class="contact-form" id="orderForm">
+        <h3>Your Order</h3>
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name..." autofocus>
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email..." required inputmode="email">
+        <label for="streetAddr">Street Address</label>
+        <input type="text" name="streetAddr" id="streetAddr" placeholder="Enter your Street Address..." required>
+
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" placeholder="Enter your Street City..." required>
+
+        <label for="state">State</label>
+        <input type="text" name="state" id="state" placeholder="Enter your State" required>
+
+        <label for="postalCode">Zip/Postal Code</label>
+        <input type="text" name="postalCode" id="postalCode" placeholder="Enter your Zip/Postal code..." required>
+
+
+        <label for="message">Your Order</label>
+        <textarea name="message" id="message" placeholder="Describe your order..."></textarea>
+
+        <input type="hidden" name="_to" value="{{ page.email }}">
+        <input type="text" name="_gotcha" style="display: none;">
+
+        <input type="submit" value="Submit Order">
+    </form>
+</div>
+<script>
+    $('#orderForm').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: 'https://hooks.zapier.com/hooks/catch/1735300/jg987i/silent/',
+            type: 'post',
+            data: $('#orderForm').serialize(),
+            success: function () {
+                window.location = "/order-success";
+            }
+        });
+    });
+</script>
