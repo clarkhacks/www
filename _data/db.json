@@ -90,7 +90,7 @@
         "date_poured": "2019-05-09T00:00:00-0500"
     },
     "R00003": {
-        "image": "https://i.imgur.com/EgnTdJ0.jpg",
+        "image": "https://i.imgur.com/GLRmSB2.jpg",
         "weight": "9g",
         "style": "Round",
         "date_poured": "2019-05-11T00:00:00-0500"
@@ -142,5 +142,29 @@
         "weight": "4g",
         "style": "Round",
         "date_poured": "2019-05-11T00:00:00-0500"
+    },
+    "R00012": {
+        "image": "https://i.imgur.com/MaMKwOu.jpg",
+        "weight": "30g",
+        "style": "Round",
+        "date_poured": "2019-05-14T00:00:00-0500"
+    },
+    "R00013": {
+        "image": "https://i.imgur.com/IGhQBIa.jpg",
+        "weight": "30g",
+        "style": "Round",
+        "date_poured": "2019-05-14T00:00:00-0500"
+    },
+    "R00014": {
+        "image": "https://i.imgur.com/akZJTdM.jpg?1",
+        "weight": "35g",
+        "style": "Round",
+        "date_poured": "2019-05-14T00:00:00-0500"
+    },
+    "R00015": {
+        "image": "https://i.imgur.com/FEh0HuB.jpg?1",
+        "weight": "34g",
+        "style": "Round",
+        "date_poured": "2019-05-14T00:00:00-0500"
     }
 }
