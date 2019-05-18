@@ -53,11 +53,29 @@
         "style": "Bar",
         "date_poured": "2019-05-11T00:00:00-0500"
     },
-    "CB00001": {
-        "image": "https://i.imgur.com/8PDSguq.jpg",
-        "weight": "21g",
+    "B00013": {
+        "image": "https://i.imgur.com/Q1wCFT4.jpg",
+        "weight": "58g",
         "style": "Bar",
-        "date_poured": "2019-05-04T00:00:00-0500"
+        "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "CB00001": {
+        "image": "https://i.imgur.com/QspWgUR.jpg",
+        "weight": "31g",
+        "style": "Bar",
+        "date_poured": "2019-05-14T00:00:00-0500"
+    },
+    "CB00002": {
+        "image": "https://i.imgur.com/FtDRFHf.jpg",
+        "weight": "28g",
+        "style": "Bar",
+        "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "CB00003": {
+        "image": "https://i.imgur.com/THj3sDq.jpg",
+        "weight": "33g",
+        "style": "Bar",
+        "date_poured": "2019-05-17T00:00:00-0500"
     },
     "P00001": {
         "image": "https://i.imgur.com/foPWTyP.jpg",
@@ -166,5 +184,35 @@
         "weight": "34g",
         "style": "Round",
         "date_poured": "2019-05-14T00:00:00-0500"
+    },
+    "R00016": {
+        "image": "https://i.imgur.com/Vqy6OST.jpg",
+        "weight": "22g",
+        "style": "Round",
+        "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "S0001": {
+        "image": "https://i.imgur.com/1AOBuqR.jpg",
+        "weight": "19g",
+        "style": "Square",
+        "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "S0002": {
+        "image": "https://i.imgur.com/q5e6bEY.jpg",
+        "weight": "24g",
+        "style": "Square",
+        "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "SF0001": {
+        "image": "https://i.imgur.com/NGJyBMb.jpg",
+        "weight": "50g",
+        "style": "Stick Figure",
+        "date_poured": "2019-05-15T00:00:00-0500"
+    },
+    "SF0002": {
+        "image": "https://i.imgur.com/mgHzdcr.jpg",
+        "weight": "44g",
+        "style": "Stick Figure",
+        "date_poured": "2019-05-15T00:00:00-0500"
     }
 }

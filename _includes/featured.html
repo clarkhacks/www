@@ -1,0 +1,12 @@
+{% for product in site.products site.products.tags.featured limit: 3 %}
+<li>
+    {% include product-styles.html product=product %}
+    <div class="product-details">
+        <h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
+        <div class="product-description">
+            {{ product.description_markdown | truncate: 45 | markdownify }}
+        </div>
+        <p>${{ product.price }}/ozt</p>
+    </div>
+</li>
+{% endfor %}

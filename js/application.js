@@ -6,6 +6,6 @@ layout: null
 
 function searchData(){
     $('.item-card').hide();
-    var txt = $('#search-criteria').val();
+    var txt = $('#search-criteria').val().toUpperCase();
     $('.item-card:contains("'+txt+'")').show();
 }
