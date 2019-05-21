@@ -59,6 +59,24 @@
         "style": "Bar",
         "date_poured": "2019-05-17T00:00:00-0500"
     },
+    "B00014": {
+        "image": "https://i.imgur.com/PXmcvY8.jpg",
+        "weight": "100g",
+        "style": "Bar",
+        "date_poured": "2019-05-20T00:00:00-0500"
+    },
+    "B00015": {
+        "image": "https://i.imgur.com/p6ab1tp.jpg",
+        "weight": "110g",
+        "style": "Bar",
+        "date_poured": "2019-05-20T00:00:00-0500"
+    },
+    "B00016": {
+        "image": "https://i.imgur.com/fdzoV20.jpg",
+        "weight": "93g",
+        "style": "Bar",
+        "date_poured": "2019-05-20T00:00:00-0500"
+    },
     "CB00001": {
         "image": "https://i.imgur.com/QspWgUR.jpg",
         "weight": "31g",
@@ -76,6 +94,18 @@
         "weight": "33g",
         "style": "Bar",
         "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "CB00004": {
+        "image": "https://i.imgur.com/eXTK7mg.jpg",
+        "weight": "28g",
+        "style": "Bar",
+        "date_poured": "2019-05-20T00:00:00-0500"
+    },
+    "CB00005": {
+        "image": "https://i.imgur.com/pZPEjNb.jpg",
+        "weight": "31.1g",
+        "style": "Bar",
+        "date_poured": "2019-05-20T00:00:00-0500"
     },
     "P00001": {
         "image": "https://i.imgur.com/foPWTyP.jpg",
@@ -190,6 +220,12 @@
         "weight": "22g",
         "style": "Round",
         "date_poured": "2019-05-17T00:00:00-0500"
+    },
+    "R00017": {
+        "image": "https://i.imgur.com/fnrhILC.jpg",
+        "weight": "27g",
+        "style": "Round",
+        "date_poured": "2019-05-20T00:00:00-0500"
     },
     "S0001": {
         "image": "https://i.imgur.com/1AOBuqR.jpg",
