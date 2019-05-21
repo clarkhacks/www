@@ -10,7 +10,7 @@
   link: /contact/
   new_window: false
   highlight: false
-- name: Gallery
-  link: /gallery/
-  new_window: false
+- name: Instagram
+  link: https://www.instagram.com/rage_metals/
+  new_window: true
   highlight: false

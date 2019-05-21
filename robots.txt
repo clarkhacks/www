@@ -2,5 +2,9 @@
 layout: null
 sitemap: false
 ---
-User-agent: *
+User-Agent: *
+Disallow: 
+Disallow: /order-success
+Disallow: /contact-success
+
 Sitemap: {{ site.url }}/sitemap.xml
