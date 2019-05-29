@@ -77,6 +77,18 @@
         "style": "Bar",
         "date_poured": "2019-05-20T00:00:00-0500"
     },
+    "B00017": {
+        "image": "/images/database/B00017.jpg",
+        "weight": "128g",
+        "style": "Bar",
+        "date_poured": "2019-05-29T00:00:00-0500"
+    },
+    "B00018": {
+        "image": "/images/database/B00018.jpg",
+        "weight": "130g",
+        "style": "Bar",
+        "date_poured": "2019-05-29T00:00:00-0500"
+    },
     "CB00001": {
         "image": "/images/database/CB00001.jpg",
         "weight": "31g",
