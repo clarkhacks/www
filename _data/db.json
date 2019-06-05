@@ -245,6 +245,12 @@
         "style": "Round",
         "date_poured": "2019-06-04T00:00:00-0500"
     },
+    "R00019": {
+        "image": "/images/database/R00019.jpg",
+        "weight": "24g",
+        "style": "Round",
+        "date_poured": "2019-06-04T00:00:00-0500"
+    },
     "S0001": {
         "image": "/images/database/S0001.jpg",
         "weight": "19g",
