@@ -1,0 +1,27 @@
+---
+title: Our Reviews
+hero: Our Reviews
+---
+
+<div class="editable">
+
+    <p>All reviews are from Reddit's <a href="https://www.reddit.com/r/PMsFeedback">r/PMsFeedback</a>.</p>
+    <br>
+    <div id="reddit-content"></div>
+</div>
+
+<script>
+    $.getJSON(
+        "https://www.reddit.com/r/pmsfeedback/search.json?q=clarkhacks&restrict_sr=on&sort=new&t=all",
+        function foo(data) {
+            $.each(
+                data.data.children.slice(0, 10),
+                function (i, post) {
+                    $("#reddit-content").append('<div class=\"styles\">' +
+                        "<span style=\"font-size: 1.2rem\">" + post.data.selftext + "<\/span>" +
+                        "<br> Posted By: " + post.data.author + "<\/div><br>");
+                }
+            )
+        }
+    )
+</script>
