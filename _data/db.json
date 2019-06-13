@@ -1,4 +1,22 @@
 {
+    "B00001": {
+        "image": "/images/none.png",
+        "weight": "n/a",
+        "style": "Bar",
+        "date_poured": "n/a"
+    },
+    "B00002": {
+        "image": "/images/none.png",
+        "weight": "n/a",
+        "style": "Bar",
+        "date_poured": "n/a"
+    },
+    "B00003": {
+        "image": "/images/none.png",
+        "weight": "n/a",
+        "style": "Bar",
+        "date_poured": "n/a"
+    },
     "B00004": {
         "image": "/images/database/B00004.jpg",
         "weight": "20g",
@@ -124,6 +142,12 @@
         "weight": "31.1g",
         "style": "Bar",
         "date_poured": "2019-05-20T00:00:00-0500"
+    },
+    "CB00006": {
+        "image": "/images/database/CB00006.jpg",
+        "weight": "32g",
+        "style": "Bar",
+        "date_poured": "2019-06-06T00:00:00-0500"
     },
     "P00001": {
         "image": "/images/database/P00001.jpg",
@@ -269,6 +293,18 @@
         "style": "Square",
         "date_poured": "2019-05-17T00:00:00-0500"
     },
+    "S0003": {
+        "image": "/images/database/S0003.jpg",
+        "weight": "24g",
+        "style": "Square",
+        "date_poured": "2019-06-06T00:00:00-0500"
+    },
+    "S0004": {
+        "image": "/images/database/S0004.jpg",
+        "weight": "25g",
+        "style": "Square",
+        "date_poured": "2019-06-06T00:00:00-0500"
+    },
     "SF0001": {
         "image": "/images/database/SF0001.jpg",
         "weight": "50g",
@@ -280,5 +316,17 @@
         "weight": "44g",
         "style": "Stick Figure",
         "date_poured": "2019-05-15T00:00:00-0500"
+    },
+    "T0001": {
+        "image": "/images/database/T0001.jpg",
+        "weight": "n/a",
+        "style": "Triangle",
+        "date_poured": "n/a"
+    },
+    "T0002": {
+        "image": "/images/database/T0002.jpg",
+        "weight": "20g",
+        "style": "Triangle",
+        "date_poured": "2019-06-06T00:00:00-0500"
     }
 }

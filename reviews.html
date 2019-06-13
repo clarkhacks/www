@@ -12,7 +12,7 @@ hero: Our Reviews
 
 <script>
     $.getJSON(
-        "https://www.reddit.com/r/pmsfeedback/search.json?q=clarkhacks&restrict_sr=on&sort=new&t=all",
+        "https://www.reddit.com/r/pmsfeedback/search.json?q=clarkhacks-seller&restrict_sr=on&sort=new&t=all",
         function foo(data) {
             $.each(
                 data.data.children.slice(0, 10),
@@ -23,5 +23,5 @@ hero: Our Reviews
                 }
             )
         }
-    );
+    )
 </script>
